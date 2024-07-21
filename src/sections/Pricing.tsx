@@ -2,6 +2,7 @@
 import CheckIcon from '@/assets/check.svg'
 import { twMerge } from 'tailwind-merge'
 import { motion } from 'framer-motion';
+import { SlowBuffer } from 'buffer';
 
 const pricingTiers = [
   {
@@ -78,15 +79,15 @@ export const Pricing = () => {
                   <div className='inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20'>
                     <motion.span
                       animate={{
-                        backgroundPositionX: '100%'
+                        backgroundPositionX: '-100%'
                       }}
                       transition={{
-                        duration: 1,
+                        duration: 1.3,
                         repeat: Infinity,
                         ease: 'linear',
                         repeatType: 'loop'
                       }}
-                      className='bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium'>
+                      className='bg-[linear-gradient(to_right,#FFD700,#FFD700,#B8860B,#8B4513,#B8860B,#FFD700,#B8860B,#8B4513,#8B4513,#B8860B,#FFD700)] [background-size:200%] text-transparent bg-clip-text font-medium'>
                       Popular
                     </motion.span>
                   </div>
