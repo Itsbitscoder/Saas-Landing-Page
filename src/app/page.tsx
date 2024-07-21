@@ -10,14 +10,17 @@ import { Testimonials } from "@/sections/Testimonials";
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero/>
-      <LogoTicker/>
-      <ProductShowcase/>
-      <Pricing/>
-      <Testimonials/>
-      <CallToAction/>
-      <Footer/>
+      <div className="">
+        <Header />
+        <Hero />
+        <LogoTicker />
+        <ProductShowcase />
+        <Pricing />
+        <Testimonials />
+        <CallToAction />
+        <Footer />
+      </div>
+
 
     </>
   )

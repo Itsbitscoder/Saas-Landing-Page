@@ -1,12 +1,10 @@
 'use client'
 import ArrowIcon from '@/assets/arrow-right.svg'
 import cogImage from '@/assets/cog.png'
-import Image from 'next/image'
 import cylinderImage from '@/assets/cylinder.png'
 import noodlImage from '@/assets/noodle.png'
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion"
 import { useRef } from 'react'
-import { log } from 'console'
 
 
 export const Hero = () => {
@@ -26,7 +24,7 @@ export const Hero = () => {
             <div className="tag">
               Version 2.o is here
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6  " >Pathway to Productuvuty</h1>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6  " >Pathway to productivity</h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
               Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.
             </p>
